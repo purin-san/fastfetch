@@ -1,6 +1,6 @@
 # Fastfetch Config + Custom ASCII Logo
 
-This repo contains my customized [Fastfetch] configuration and a personalized ASCII logo.
+This repo contains my customized Fastfetch configuration and a personalized ASCII logo.
 
 
 
