@@ -64,3 +64,5 @@ Example: 38;2;152;255;152 for pastel green
 "keyColor": "32"  
 
 
+You can remove the line breaks ("break") in the config fiile if you want. I put them there so you can't see my username, and the hostname at the command line.
+
