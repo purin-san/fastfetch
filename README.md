@@ -23,7 +23,7 @@ mkdir -p ~/.config/fastfetch
 
 2. **Copy the files into your config directory** 
 
-cp config.jsonc ~/.config/fastfetch/config.jsonc
+cp config.jsonc ~/.config/fastfetch/config.jsonc  
 cp ascii.txt ~/.config/fastfetch/logo.txt
 
 
@@ -51,16 +51,16 @@ In your config.jsonc, you can set colors using ANSI codes or 24-bit RGB values.
 
 **Examples of color codes:**
 
-31 = red
-32 = green
-34 = blue
+31 = red  
+32 = green  
+34 = blue  
 
-RGB format: 38;2;<R>;<G>;<B>
-Example: 38;2;152;255;152 for pastel green
+RGB format: 38;2;<R>;<G>;<B>  
+Example: 38;2;152;255;152 for pastel green  
 
 **To apply the color, change the relevant color key in your config.jsonc, for example:**
 
-"keyColor": "38;2;152;255;152",
-"keyColor": "32",
+"keyColor": "38;2;152;255;152"  
+"keyColor": "32"  
 
 
