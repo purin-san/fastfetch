@@ -6,10 +6,6 @@ You can also get more customization by using the Fastcat theme pack: https://git
 
 To use these files you'll need fastfetch.
 
-sudo apt update
-sudo apt install fastfetch
-
-
 ## Files Included
 
 - `config.jsonc` — My Fastfetch configuration file with custom modules and colors.
