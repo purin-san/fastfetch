@@ -2,7 +2,12 @@
 
 This repo contains my customized Fastfetch configuration and a personalized ASCII logo.
 
+You can also get more customization by using the Fastcat theme pack: https://github.com/m3tozz/FastCat
 
+To use these files you'll need fastfetch.
+
+sudo apt update
+sudo apt install fastfetch
 
 
 ## Files Included
@@ -16,7 +21,12 @@ This repo contains my customized Fastfetch configuration and a personalized ASCI
 
 All steps below are performed in the Terminal. You can open it by pressing Ctrl + Alt + T or searching for "Terminal" in the start menu.
 
-1. **Create the Fastfetch config folder** (if it doesn’t exist):
+1. **Install fastfetch If you havent**
+
+sudo apt update
+sudo apt install fastfetch   
+
+3. **Create the Fastfetch config folder** (if it doesn’t exist):
 
 mkdir -p ~/.config/fastfetch
 
