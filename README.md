@@ -17,7 +17,7 @@ To use these files you'll need fastfetch.
 
 All steps below are performed in the Terminal. You can open it by pressing Ctrl + Alt + T or searching for "Terminal" in the start menu.
 
-1. **Install fastfetch If you havent**
+1. **Install fastfetch** (If you haven't yet)  
 
 sudo apt update  
 sudo apt install fastfetch   
