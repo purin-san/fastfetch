@@ -19,7 +19,7 @@ All steps below are performed in the Terminal. You can open it by pressing Ctrl 
 
 1. **Install fastfetch If you havent**
 
-sudo apt update
+sudo apt update  
 sudo apt install fastfetch   
 
 3. **Create the Fastfetch config folder** (if it doesn’t exist):
