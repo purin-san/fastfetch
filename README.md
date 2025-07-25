@@ -22,18 +22,18 @@ All steps below are performed in the Terminal. You can open it by pressing Ctrl 
 sudo apt update  
 sudo apt install fastfetch   
 
-3. **Create the Fastfetch config folder** (if it doesn’t exist):
+2. **Create the Fastfetch config folder** (if it doesn’t exist):
 
 mkdir -p ~/.config/fastfetch
 
 
-2. **Copy the files into your config directory** 
+3. **Copy the files into your config directory** 
 
 cp config.jsonc ~/.config/fastfetch/config.jsonc  
 cp ascii.txt ~/.config/fastfetch/logo.txt
 
 
-3. **Run Fastfetch** 
+4. **Run Fastfetch** 
 
 fastfetch
 
