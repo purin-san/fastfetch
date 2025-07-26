@@ -110,7 +110,7 @@ or
 ```
 **Note on Line Breaks**
 
-You can remove the line breaks ("break") in the config file if you want. I put them there so you can't see my username, and the hostname at the command line.
+You can remove the line breaks ("break") in the config file if you want. I put them there so you can't see my username, and the hostname at the command line. The same applies to the spaces in the ascii.txt file.
 
 ## Terminal transparency:
 
