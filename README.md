@@ -94,6 +94,14 @@ Example: ```38;2;152;255;152 ``` for pastel green
 "keyColor": "38;2;152;255;152"  
 "keyColor": "32"  
 ```
+**Note on Line Breaks**
+
+You can remove the line breaks ("break") in the config file if you want. I put them there so you can't see my username, and the hostname at the command line.
+
+```bash
+echo "background_opacity 0.7" >> ~/.config/kitty/kitty.conf && killall -SIGUSR1 kitty
+```
+
 
 ## Terminal transparency:
 
@@ -112,12 +120,4 @@ Use the following code in kitty and use a Hex code for the color you want to use
 
 ```bash
 echo "background #28353b" >> ~/.config/kitty/kitty.conf && killall -SIGUSR1 kitty
-```
-
-**Note on Line Breaks**
-
-You can remove the line breaks ("break") in the config file if you want. I put them there so you can't see my username, and the hostname at the command line.
-
-```bash
-echo "background_opacity 0.7" >> ~/.config/kitty/kitty.conf && killall -SIGUSR1 kitty
 ```
