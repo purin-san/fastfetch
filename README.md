@@ -85,8 +85,8 @@ Example: 38;2;152;255;152 for pastel green
 
 Use the following code in kitty and choose a value between 0.0 and 1.0 (I used 0.8 on my pc).
 
-0.0 = fully transparent
-1.0 = fully opaque
+0.0 = fully transparent  
+1.0 = fully opaque  
 
 echo "background_opacity 0.8" >> ~/.config/kitty/kitty.conf && killall -SIGUSR1 kitty
 
