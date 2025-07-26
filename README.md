@@ -4,7 +4,7 @@ This repo contains my customized Fastfetch configuration and a personalized ASCI
 
 You can also get more customization by using the Fastcat theme pack: https://github.com/m3tozz/FastCat
 
-To use these files you'll need fastfetch and the kitty terminal
+To use these files you'll need fastfetch and the Kitty Terminal.
 
 ## Files Included
 
