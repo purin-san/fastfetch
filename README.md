@@ -86,7 +86,7 @@ In your config.jsonc, you can set colors using ANSI codes or 24-bit RGB values.
 34 = blue  
 
 RGB format: 38;2;&lt;R&gt;;&lt;G&gt;;&lt;B&gt;    
-Example: ```bash 38;2;152;255;152 ``` for pastel green  
+Example: ```38;2;152;255;152 ``` for pastel green  
 
 **To apply the color, change the relevant color key in your config.jsonc, for example:**
 
