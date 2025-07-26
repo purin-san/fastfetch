@@ -79,7 +79,13 @@ fastfetch
 
 ## Customization Tips Color
 
-In your config.jsonc, you can set colors using ANSI codes or 24-bit RGB values.
+In your config.jsonc, you can set colors using ANSI codes or 24-bit RGB values.  
+
+To open the config.jsonc file:
+
+```bash
+xed ~/.config/fastfetch/config.jsonc
+```
 
 **Examples of color codes:**
 
