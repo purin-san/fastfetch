@@ -102,7 +102,10 @@ Example: ```38;2;152;255;152 ``` for pastel green
 **To apply the color, change the relevant color key in your config.jsonc, for example:**
 
 ```bash
-"keyColor": "38;2;152;255;152"  
+"keyColor": "38;2;152;255;152"
+```
+or
+```bash
 "keyColor": "32"  
 ```
 **Note on Line Breaks**
