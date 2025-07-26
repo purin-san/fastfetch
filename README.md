@@ -51,7 +51,7 @@ mkdir -p ~/.config/fastfetch
 
 ```bash
 cp ~/Downloads/fastfetch-main/config.jsonc ~/.config/fastfetch/config.jsonc
-cp ~/Downloads/fastfetch-main/ascii.txt ~/.config/fastfetch/logo.txt
+cp ~/Downloads/fastfetch-main/ascii.txt ~/.config/fastfetch/ascii.txt
 ```
 
 8. **Run Fastfetch** 
