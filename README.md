@@ -50,8 +50,8 @@ mkdir -p ~/.config/fastfetch
 7. **Copy the files into your config directory** 
 
 ```bash
-cp config.jsonc ~/.config/fastfetch/config.jsonc  
-cp ascii.txt ~/.config/fastfetch/logo.txt
+cp ~/Downloads/fastfetch-main/config.jsonc ~/.config/fastfetch/config.jsonc
+cp ~/Downloads/fastfetch-main/ascii.txt ~/.config/fastfetch/logo.txt
 ```
 
 8. **Run Fastfetch** 
