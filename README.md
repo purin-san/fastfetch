@@ -15,46 +15,49 @@ To use these files you'll need fastfetch and the kitty terminal
 
 ## How to Use
 
+1. Press the "<> Code" button and download the ZIP file
+2. Unzip the file in your download folder
+
 All steps below are performed in the Terminal. You can open it by pressing Ctrl + Alt + T or searching for "Terminal" in the start menu.
 
-1. **Install Kitty Terminal** 
+3. **Install Kitty Terminal** 
 
 ```bash
 sudo apt update  
 sudo apt install kitty
 ```
 
-2. **Set Kitty Terminal as default** 
+4. **Set Kitty Terminal as default** 
 
 ```bash
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator ~/.local/kitty.app/bin/kitty 50
 sudo update-alternatives --config x-terminal-emulator
 ```
-3. **Choose Kitty from the list, and type in the correct number**
+5. **Choose Kitty from the list, and type in the correct number**
     
-4. **Close your Terminal and use Ctrl + Alt + T. Check if you're using the Kitty Terminal, and use that Terminal for all the following steps**
+6. **Close your Terminal and use Ctrl + Alt + T. Check if you're using the Kitty Terminal, and use that Terminal for all the following steps**
 
-5. **Install fastfetch**
+7. **Install fastfetch**
 
 ```bash
 sudo apt update  
 sudo apt install fastfetch   
 ```
 
-6. **Create the Fastfetch config folder** (if it doesn’t exist):
+8. **Create the Fastfetch config folder** (if it doesn’t exist):
 
 ```bash
 mkdir -p ~/.config/fastfetch
 ```
 
-7. **Copy the files into your config directory** 
+9. **Copy the files into your config directory** 
 
 ```bash
 cp ~/Downloads/fastfetch-main/config.jsonc ~/.config/fastfetch/config.jsonc
 cp ~/Downloads/fastfetch-main/ascii.txt ~/.config/fastfetch/ascii.txt
 ```
 
-8. **Run Fastfetch** 
+10. **Run Fastfetch** 
 
 ```bash
 fastfetch
