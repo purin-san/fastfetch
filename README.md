@@ -19,7 +19,7 @@ All steps below are performed in the Terminal. You can open it by pressing Ctrl 
 
 1. **Install Kitty Terminal** 
 
-sudo apt update
+'sudo apt update'
 sudo apt install kitty
 
 2. **Set Kitty Terminal as default** 
