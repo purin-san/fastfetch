@@ -98,11 +98,6 @@ Example: ```38;2;152;255;152 ``` for pastel green
 
 You can remove the line breaks ("break") in the config file if you want. I put them there so you can't see my username, and the hostname at the command line.
 
-```bash
-echo "background_opacity 0.7" >> ~/.config/kitty/kitty.conf && killall -SIGUSR1 kitty
-```
-
-
 ## Terminal transparency:
 
 Use the following code in kitty and choose a value between 0.0 and 1.0 (I used 0.8 on my pc).
