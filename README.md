@@ -15,7 +15,7 @@ To use these files you'll need fastfetch and the kitty terminal
 
 ## How to Use
 
-1. Press the "<> Code" button and download the ZIP file
+1. Press the green "<> Code" button and download the ZIP file
 2. Unzip the file in your download folder
 
 All steps below are performed in the Terminal. You can open it by pressing Ctrl + Alt + T or searching for "Terminal" in the start menu.
