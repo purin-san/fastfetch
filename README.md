@@ -27,7 +27,7 @@ sudo apt install kitty
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator ~/.local/kitty.app/bin/kitty 50
 sudo update-alternatives --config x-terminal-emulator
 
-//choose kitty from the list, and type in the correct number
+> choose kitty from the list, and type in the correct number
 
 3. **Install fastfetch**
 
