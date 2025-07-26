@@ -62,7 +62,7 @@ cp ~/Downloads/fastfetch-main/ascii.txt ~/.config/fastfetch/ascii.txt
 ```bash
 fastfetch
 ```
-## Customization Tips ASCII Art
+## Fastfetch ASCII Art Customization
 
 To replace the logo with your own custom ASCII art:
 
@@ -80,7 +80,7 @@ xed ~/.config/fastfetch/ascii.txt
 fastfetch
 ```
 
-## Customization Tips Color
+## Fastfetch Color Customization
 
 In your config.jsonc, you can set colors using ANSI codes or 24-bit RGB values.  
 
