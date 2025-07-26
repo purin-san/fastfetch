@@ -30,30 +30,31 @@ sudo apt install kitty
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator ~/.local/kitty.app/bin/kitty 50
 sudo update-alternatives --config x-terminal-emulator
 ```
-2.1. Choose Kitty from the list, and type in the correct number  
-2.2.  Close your Terminal and use Ctrl + Alt + T, check if you're using the Kitty Terminal, and use that Terminal for all the following steps.
+3. **Choose Kitty from the list, and type in the correct number**
+    
+4. **Close your Terminal and use Ctrl + Alt + T. Check if you're using the Kitty Terminal, and use that Terminal for all the following steps**
 
-3. **Install fastfetch**
+5. **Install fastfetch**
 
 ```bash
 sudo apt update  
 sudo apt install fastfetch   
 ```
 
-4. **Create the Fastfetch config folder** (if it doesn’t exist):
+6. **Create the Fastfetch config folder** (if it doesn’t exist):
 
 ```bash
 mkdir -p ~/.config/fastfetch
 ```
 
-5. **Copy the files into your config directory** 
+7. **Copy the files into your config directory** 
 
 ```bash
 cp config.jsonc ~/.config/fastfetch/config.jsonc  
 cp ascii.txt ~/.config/fastfetch/logo.txt
 ```
 
-6. **Run Fastfetch** 
+8. **Run Fastfetch** 
 
 ```bash
 fastfetch
