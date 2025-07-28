@@ -40,6 +40,7 @@ sudo update-alternatives --config x-terminal-emulator
 7. **Install fastfetch**
 
 ```bash
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 sudo apt update  
 sudo apt install fastfetch   
 ```
