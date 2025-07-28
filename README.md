@@ -44,21 +44,25 @@ sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 sudo apt update  
 sudo apt install fastfetch   
 ```
+8. **Install Fastcat
+```bash
+git clone --depth 1 https://github.com/m3tozz/FastCat.git && cd FastCat && bash ./fastcat.sh --shell
+```
 
-8. **Create the Fastfetch config folder** (if it doesn’t exist):
+9. **Create the Fastfetch config folder** (if it doesn’t exist):
 
 ```bash
 mkdir -p ~/.config/fastfetch
 ```
 
-9. **Copy the files into your config directory** 
+10. **Copy the files into your config directory** 
 
 ```bash
 cp ~/Downloads/fastfetch-main/config.jsonc ~/.config/fastfetch/config.jsonc
 cp ~/Downloads/fastfetch-main/ascii.txt ~/.config/fastfetch/ascii.txt
 ```
 
-10. **Run Fastfetch** 
+11. **Run Fastfetch** 
 
 ```bash
 fastfetch
